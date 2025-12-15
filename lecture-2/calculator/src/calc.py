@@ -226,8 +226,6 @@ class CalculatorApp(ft.Container):
         self.operand1 = 0
         self.new_operand = True
 
-
-# エントリーポイント
 def main(page: ft.Page):
     page.title = "Scientific Calculator"
     page.add(CalculatorApp())
